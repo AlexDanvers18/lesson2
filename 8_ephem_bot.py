@@ -87,7 +87,7 @@ def get_name_planet(update, context):
 
 
 def main():
-    mybot = Updater("7004108090:AAE5-YJaeDJiYgIG4l6FCZnt1UhUFLS0wcA", use_context=True)
+    mybot = Updater("TOKEN", use_context=True)
 
     dp = mybot.dispatcher
     dp.add_handler(CommandHandler("start", greet_user))
